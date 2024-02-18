@@ -1,0 +1,9 @@
+[package]
+name = "des-ndtp"
+version = "0.7.0"
+edition = "2021"
+
+[dependencies]
+bitvec = { git = "https://github.com/ferrilab/bitvec" }
+itertools = "0.12.0"
+thiserror = "1.0.52"
